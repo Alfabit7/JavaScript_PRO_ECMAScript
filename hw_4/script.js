@@ -37,9 +37,9 @@ inputEl.addEventListener("input", (e) => {
 });
 
 let btnEl = document.querySelector('.btn');
-const idElements = document.querySelectorAll('.id');
-btnEl.addEventListener('click', (e) => {
 
+btnEl.addEventListener('click', (e) => {
+    const idElements = document.querySelectorAll('.id');
     let el = Array.from(idElements).find(el => {
         return el.textContent.substring(4) == idDelUser;
 
