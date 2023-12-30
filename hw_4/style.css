@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    height: 50px;
+    padding: 5px 5px;
+    width: fit-content;
+    background-color: brown;
+    color: white;
+}
+
+.inputDelUser{
+    height: 50px;
+    width:inherit;
+    padding: 2px 5px;
+    width: 450px;
+    
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 400px;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+}
